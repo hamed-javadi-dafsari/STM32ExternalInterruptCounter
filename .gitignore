@@ -4,6 +4,7 @@ Release/
 
 # IDE settings
 .settings/
+*.launch
 
 # Build outputs / compiled binaries
 *.o
