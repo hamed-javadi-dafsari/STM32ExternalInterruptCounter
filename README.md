@@ -1,7 +1,9 @@
-This project demonstrates the use of an external interrupt (EXTI) on an STM32 microcontroller.
+Project Name :  STM32 External Interrupt Counter on NUCLEO-F401RE (Blue Button EXTI)
 
-The on-board blue micro-switch is configured as an external interrupt source. Each time the button is pressed, an interrupt is triggered and an internal counter is incremented.
+This project is developed for the STM32 NUCLEO-F401RE (C05) development board and demonstrates the use of a GPIO external interrupt (EXTI).
 
-The counter value can be monitored in real time using the STM32CubeIDE debugger, allowing easy verification of interrupt handling and system behavior.
+The on-board blue user button is configured as an external interrupt source. Each button press triggers an interrupt, incrementing an internal counter variable.
 
-This project is intended as a practical example for learning and testing GPIO external interrupts, EXTI configuration, and debugging in STM32CubeIDE.
+The counter value can be observed in real time using the STM32CubeIDE debug environment, making it easy to verify correct interrupt operation and system behavior.
+
+This project serves as a practical example for learning and testing external interrupts, GPIO configuration, EXTI handling, and debugging on STM32 microcontrollers.
