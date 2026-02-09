@@ -1,0 +1,19 @@
+# STM32CubeIDE build artifacts
+Debug/
+Release/
+
+# IDE settings
+.settings/
+
+# Build outputs / compiled binaries
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.d
+
+# Temporary files
+*.tmp
+*.log
